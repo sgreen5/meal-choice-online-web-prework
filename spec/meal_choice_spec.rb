@@ -4,6 +4,6 @@ describe '#meal_choice' do
   end
 
   it 'should allow you to set a meal' do
-    expect(meal_choice("vegan")).to eq("vegan")
+    expect(meal_choice("vegan")).to eq(meal)
   end
 end
