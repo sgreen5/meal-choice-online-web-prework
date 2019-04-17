@@ -1,4 +1,4 @@
-describe (meal_choice) do
+describe meal_choice(meal = "meat") do
   it 'should default to meat' do
     expect(meal_choice).to eq(meal = "meat")
   end
